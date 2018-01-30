@@ -7,7 +7,7 @@ import { PlanningPoker } from '../cards'
 class CardContainer extends Component {
   constructor(props) {
     super(props)
-    this.state = { value: '', image: '' }
+    this.state = { value: '', image: '', isSelected: true }
   }
 
   componentDidMount() {

@@ -5,7 +5,9 @@ import Card from './Card'
 
 const Deck = ({ cards }) => (
   <div className="card-deck">
-    {cards.map(card => <Card key={card.value} {...card} />)}
+    <div className="row">
+      {cards.map(card => <Card key={card.value} {...card} />)}
+    </div>
   </div>
 )
 
