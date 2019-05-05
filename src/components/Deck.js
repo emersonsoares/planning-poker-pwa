@@ -30,8 +30,9 @@ class Deck extends Component {
             <div
               onClick={() => this.handleFlipCard(card)}
               className="col-4 mt-2 col-sm-3 mt-sm-3 col-md-3 col-lg-2 mt-lg-4"
+              key={card.value}
             >
-              <Card key={card.value} {...card} />
+              <Card {...card} />
             </div>
           ))}
         </div>
