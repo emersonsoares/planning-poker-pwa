@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './components/App'
 
 const app = (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>
 )
