@@ -3,13 +3,24 @@
   "name": "Planning Poker PWA",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./favicon32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "./favicon192.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": "./index.html",
-  "display": "standalone",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
