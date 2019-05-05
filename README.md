@@ -14,4 +14,4 @@ This uses PWA standards so you can install this app to your home screen, and use
 
 ## Demo
 
-[https://planning-poker-pwa.whitedarryl101.now.sh/](https://planning-poker-pwa.whitedarryl101.now.sh/)
+[https://emersonsoares.github.io/planning-poker-pwa](https://emersonsoares.github.io/planning-poker-pwa)
